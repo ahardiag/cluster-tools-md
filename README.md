@@ -35,17 +35,23 @@ For example, with conda, you can create a new environment with all the python pa
 What for ?
 --------
 
-- `multiclustersize/run_Clustsize.py` computes the size distributions of atomic clusters in gas phase.
+- `multiclustersize/run_Clustsize.py` computes the **size distributions** of atomic clusters in gas phase.
 This is equivalent to `gmx clustsize` in GROMACS, but provides more options and editable outputs.
-- `multiRDF` is a wrapper of MDAnalysis tools for computing Radial Distribution Functions from MD trajectories.
+<p></p> 
+
+- `multiRDF/run_RDF.py` is a wrapper of MDAnalysis tools for computing **Radial Distribution Functions** from MD trajectories.
 In particular, it allows to apply sequentially the same analysis on several trajectories.
+<p></p> 
+
+- `radialDensity/radial_density_aggregates.py` allows to compute the **radial density of atoms around each cluster** detected in a trajectory using the output from the `multiclustsize` program.
 
 
-See the README file for each subdirectory.
+Documentation is present in each `README` file for each subdirectory.
 
 
 Citation
 -------
 If you use **cluster_tools** in your research, please cite the following article:
 
+[coming soon]
 
