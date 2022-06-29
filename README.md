@@ -40,7 +40,8 @@ This is equivalent to `gmx clustsize` in GROMACS, but provides more options and 
 - `multiRDF` is a wrapper of MDAnalysis tools for computing Radial Distribution Functions from MD trajectories.
 In particular, it allows to apply sequentially the same analysis on several trajectories.
 
-See the README file in all subdirectories.
+
+See the README file for each subdirectory.
 
 
 Citation
