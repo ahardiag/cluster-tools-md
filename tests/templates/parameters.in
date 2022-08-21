@@ -1,0 +1,3 @@
+TASK  SUFFIXNAME     PATH                                 BEGIN END  OUTDIRNAME          FREQ   SEL1                        EXCLUSION_BLOCK   
+task1 H1_f0.83_C166  data/Data_H01_100_wat-EtOH_m5_box10  0     100  outputs/test6 100    "resname H01 and name O1"  (1,1)
+task2 H1_f0.83_C769  data/Data_H01_100_wat-EtOH_m5_box6   0     100  outputs/test6 100    "resname H01 and name O1"  (1,1)

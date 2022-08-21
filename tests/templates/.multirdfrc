@@ -1,0 +1,9 @@
+[DefaultParameters]
+BEGIN=              0             # start time in ns for the analysis
+END=                100
+MAX=                20            # 20 A ; maximum radial distance
+SUB=                2             # Number of time intervals to divide the trajectory total time 
+NBINS=              200           # Number of points for one RDF trace        
+EXCLUSION_BLOCK=    (1,1)         # To be use when calculating RDF with atooms in the same molecule
+REF=                init.gro      # Reference frame
+TRAJ=               md.xtc        # Trajectory
