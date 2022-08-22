@@ -1,0 +1,7 @@
+# Results of tests
+tests/outputs
+
+# Building location
+build
+cluster_tools_md.egg-info
+
