@@ -1,4 +1,4 @@
-# cluster_tools_md
+# cluster-tools-md
 
 Command-line analysis routines of Molecular Dynamics data with aggregating molecules.
 
